@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body{
+body {
   background-image: url('/fondo.jpg');
   background-size: cover;
   background-position: center center;
@@ -68,7 +68,7 @@ body{
   gap: 10px;
 }
 
-.panel-control-lateral nav ul li{
+.panel-control-lateral nav ul li {
   width: 80%;
   height: 40px;
   background-color: white;
