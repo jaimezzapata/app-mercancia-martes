@@ -1,11 +1,13 @@
-import logoUser from './assets/user.jpg'
+import Card from './Card'
 import MenuLateral from './MenuLateral'
-export const PanelControl = () => {
+const PanelControl = () => {
   return (
     <section className="panel-control">
       <MenuLateral />
       <div className="panel-control-contenido">
-        <h1>Mensaje de bienvenida</h1>
+        <Card />
+        <Card />
+        <Card />
       </div>
     </section>
   )

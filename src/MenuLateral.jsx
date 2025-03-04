@@ -1,8 +1,9 @@
+import logoUser from './assets/user.jpg'
 function MenuLateral() {
   return (
     <aside className="panel-control-lateral">
       <div>
-        <img src="/user.jpg" alt="Logo" />
+        <img src={logoUser} alt="Logo" />
       </div>
       <nav>
         <ul>
