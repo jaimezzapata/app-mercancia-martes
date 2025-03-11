@@ -9,7 +9,7 @@ const PanelControl = () => {
       <div className="panel-control-contenido">
         {
           usuarios.map((usuario) => {
-            return <Card />
+            return <Card usuario={usuario} />
           })
         }
       </div>

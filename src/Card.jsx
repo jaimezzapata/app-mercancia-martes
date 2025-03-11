@@ -1,12 +1,11 @@
-const Card = ({ nombre, ciudad, telefono }) => {
-  console.log(nombre, ciudad, telefono);
-  
+const Card = ({ usuario }) => {
+  // console.log(usuario);
   return (
     <section className="card">
       <div>
-        <p>Nombre: {nombre}</p>
-        <p>Ciudad: {ciudad}</p>
-        <p>Telefono: {telefono}</p>
+        <p>Nombre: {usuario.nombre}</p>
+        <p>Ciudad: {usuario.ciudad}</p>
+        <p>Telefono: {usuario.telefono}</p>
       </div>
       <div>
         <p>Ver</p>

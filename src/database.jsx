@@ -13,5 +13,5 @@ export let usuarios = [
     nombre: 'Andrea Caldas',
     ciudad: "Bello",
     telefono: "3152001282"
-  },
+  }
 ]
